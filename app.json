@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Pacibaby",
+    "slug": "Pacibaby",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.8",
+    "orientation": "portrait",
+    "icon": "./assets/images/finallogo.png",
+    "splash": {
+      "image": "./assets/images/finallogo.png",
+      "backgroundColor": "#42B6C7"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "info.toothprint",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Pacibaby requires access to your camera to predict the size of Pacibabyr",
+        "NSPhotoLibraryUsageDescription": "Pacibaby needs to access your camera roll in order to predict the size of Pacibabyr",
+        "NSPhotoLibraryAddUsageDescription": "Pacibaby needs to access your camera roll so that you can upload photo and predict the size of Pacibabyr",
+        "NSLocationWhenInUseUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSLocationAlwaysUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription":"This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSLocationUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSCalendarsUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSContactsUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSMicrophoneUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSMotionUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSRemindersUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+      }
+    }
+  }
+}
